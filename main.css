@@ -1,7 +1,7 @@
 body{
   margin: 0 auto;
 }
-
+/* header style */
 .header{
   text-align: center;
   border-bottom: 1px solid black;
@@ -11,16 +11,18 @@ body{
 .header h1{
   font-family: sans-serif;
 }
+/* summary style  */
 .summary{
-
-  /* background-color: red; */
   padding: 10px;
-  margin-bottom: 20px;
+  /* margin-bottom: 20px; */
 }
 .summary p{
   font-family: sans-serif;
   font-weight: 600;
+  margin-top: 100px;
 }
+
+/* navbar style */
 .navbar{
   display: grid;
   grid-template-columns: auto auto auto auto;
@@ -46,4 +48,43 @@ body{
 .navbar div:nth-child(4){
   background-color:red;
   width:25%;
+}
+.navbar a{
+  text-decoration: none;
+  color: black;
+}
+.navbar div:hover{
+  background-color: blue;
+}
+/* gallery style */
+.gallery{
+  display: grid;
+  grid-template-columns: auto auto auto auto;
+  grid-column-gap: 10px;
+  height: 300px;
+  margin-top: 200px;
+}
+.gallery div:nth-child(1){
+  background-image: url('https://food.fnr.sndimg.com/content/dam/images/food/fullset/2018/5/16/0/FNK_WATERMELON-PIG-H_s4x3.jpg.rend.hgtvcom.826.620.suffix/1526483893553.jpeg');
+  background-color: blue;
+}
+.gallery div:nth-child(2){
+  background-image: url();
+  background-color: blue;
+}
+.gallery div:nth-child(3){
+  background-image: url();
+  background-color: blue;
+}
+.gallery div:nth-child(4){
+  background-image: url();
+  background-color: blue;
+}
+.footer{
+  /* position: relative; */
+  margin-top: 200px;
+  text-align: center;
+  background-color: #ea5169;
+  border-top: 1px solid black;
+  /* margin: 0 auto; */
 }
