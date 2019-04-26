@@ -1,0 +1,13 @@
+body{
+  margin: 0 auto;
+}
+
+.header{
+  text-align: center;
+  border-bottom: 1px solid black;
+  background-color: #ea5169;
+  margin-bottom: 20px;
+}
+.header h1{
+  font-family: sans-serif;
+}
