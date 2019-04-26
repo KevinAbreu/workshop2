@@ -69,15 +69,15 @@ body{
   background-color: blue;
 }
 .gallery div:nth-child(2){
-  background-image: url();
+  background-image: url('https://www.medicalnewstoday.com/content/images/headlines/266/266886/watermelon.jpg');
   background-color: blue;
 }
 .gallery div:nth-child(3){
-  background-image: url();
+  background-image: url('http://assets.menshealth.co.uk/main/thumbs/36143/melon-zipper__square.jpg');
   background-color: blue;
 }
 .gallery div:nth-child(4){
-  background-image: url();
+  background-image: url('https://www.whataboutwatermelon.com/wp-content/uploads/2018/05/cube-shape-watermelon.jpg');
   background-color: blue;
 }
 .footer{
